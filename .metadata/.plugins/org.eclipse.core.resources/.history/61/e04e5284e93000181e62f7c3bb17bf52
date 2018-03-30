@@ -1,0 +1,38 @@
+package org.test.demo;
+
+import java.util.*;
+public class PigLatin {
+    static ArrayList<String> al = new ArrayList<String>();
+    static Scanner sc = new Scanner(System.in);
+    static String userString;
+    static String latinString;
+    static String temp;
+
+    public static void main(String[] args) {
+        while (true) {
+            latinString = "";
+            System.out.print("Enter a string to be converted into Pig Latin. To stop, enter a blank input: ");
+            //String userString = sc.nextLine();
+            userString ="MBA";
+            if (userString.isEmpty()) {
+                break;
+            }
+
+            ArrayList<String> al = new ArrayList<String>(Arrays.asList(userString.split("\\s")));
+
+            for(int i = 0; i <= al.size() - 1; i++) {
+                temp = al.get(i);
+                String tester = temp.toUpperCase();
+                if (tester.charAt(0) == 'A' || tester.charAt(0) == 'E' || tester.charAt(0) == 'I' || tester.charAt(0) == 'O' ||
+                        tester.charAt(0) == 'U' ) {
+                    latinString = latinString + temp + "ay ";
+                } else {
+                    latinString = latinString + temp.substring(1) + temp.charAt(0) + "ay ";
+                }
+
+            }
+            System.out.println(latinString);
+        }   
+        sc.close();
+    }
+}

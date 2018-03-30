@@ -1,0 +1,25 @@
+
+»squid:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ƒ›Æ²8­é×,H„RMAJORZ
+CODE_SMELL
+™squid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8“èı×,H…RMINORZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethod%",Remove this use of "Date"; it is deprecated.(Íùúûÿÿÿÿ8­é×,H†RMINORZ
+CODE_SMELL
+usquid:S1126"AReplace this if-then-else statement by a single return statement.(ÌÑ›£8­é×,H‡RMINORZ
+CODE_SMELL
+Zsquid:S1905 "&Remove this unnecessary cast to "int".(³Ùâï8­é×,HˆRMINORZ
+CODE_SMELL
+vsquid:CallToDeprecatedMethod'",Remove this use of "Date"; it is deprecated.(Ùè”÷øÿÿÿÿ8­é×,H‰RMINORZ
+CODE_SMELL
+»squid:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(“½‘Å8­é×,HŠRMAJORZ
+CODE_SMELL
+»squid:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(§¼Éç8­é×,H‹RMAJORZ
+CODE_SMELL
+q
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ŸØòşıÿÿÿÿ8ÑÈë×,HŒRMAJORZ
+CODE_SMELL
+»squid:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÌÑ›£8­é×,HRMAJORZ
+CODE_SMELL
+q
+squid:S106("9Replace this use of System.out or System.err by a logger.(—ÅÁ•ıÿÿÿÿ8¡©Ü×,HRMAJORZ
+CODE_SMELL

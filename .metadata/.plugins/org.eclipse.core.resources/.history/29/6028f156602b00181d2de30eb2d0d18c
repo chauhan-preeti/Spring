@@ -1,0 +1,11 @@
+package org.test.demo;
+
+public class Drawing {
+
+	public static void main(String[] args) {
+		
+		BeanFactory beanFactory = new XMLBeanFactory(new FileSystemResource("spring.xml"))
+
+	}
+
+}

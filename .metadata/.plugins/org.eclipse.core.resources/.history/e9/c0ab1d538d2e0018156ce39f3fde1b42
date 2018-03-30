@@ -1,0 +1,14 @@
+package org.test.demo;
+
+public class Circle {
+	
+	int radius;
+	
+	String type;
+	
+	public void draw()
+	{
+		System.out.println("Circle drawn");
+	}
+
+}

@@ -1,0 +1,6 @@
+
+lsquid:S2259x"AA "NullPointerException" could be thrown; "min" is nullable here.(ûµˆ°ÿÿÿÿÿH“RMAJORZBUG
+jsquid:S3878Y"8Remove this array creation and simply pass the elements.(àÓïıÿÿÿÿH”RMINORZ
+CODE_SMELL
+jsquid:S3878;"8Remove this array creation and simply pass the elements.(åŞ¥ÌûÿÿÿÿH•RMINORZ
+CODE_SMELL

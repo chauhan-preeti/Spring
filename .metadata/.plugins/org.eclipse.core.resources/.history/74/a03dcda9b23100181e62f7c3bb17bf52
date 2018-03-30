@@ -1,0 +1,9 @@
+package org.test.demo;
+
+public class Child extends Parent {
+
+	public void display()
+	{
+		System.out.println("Parent");
+	}
+}

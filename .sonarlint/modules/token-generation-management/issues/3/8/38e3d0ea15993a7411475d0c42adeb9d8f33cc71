@@ -1,0 +1,13 @@
+
+`squid:S1444%"1Make this "public static customerMap" field final(∏ŸíHüRMINORZVULNERABILITY
+^squid:S1444&".Make this "public static counters" field final(€È®ìH†RMINORZVULNERABILITY
+üsquid:S1319%"sThe type of the "customerMap" object should be an interface such as "Map" rather than the implementation "HashMap".(∏ŸíH°RMINORZ
+CODE_SMELL
+fsquid:S2696P"6Make the enclosing method "static" or remove this set.(≥¿û·H¢RCRITICALZ
+CODE_SMELL
+fsquid:S2696d"6Make the enclosing method "static" or remove this set.(¨Â§æH£RCRITICALZ
+CODE_SMELL
+ù"squid:ClassVariableVisibilityCheck%"WMake customerMap a static final constant or non-public and provide accessors if needed.(∏ŸíH§RMINORZVULNERABILITY
+õ"squid:ClassVariableVisibilityCheck&"TMake counters a static final constant or non-public and provide accessors if needed.(€È®ìH•RMINORZVULNERABILITY
+Vsquid:S2386P"&Make member "customerMap" "protected".(≥¿û·H¶RMINORZVULNERABILITY
+Ssquid:S2386d"#Make member "counters" "protected".(¨Â§æHßRMINORZVULNERABILITY
